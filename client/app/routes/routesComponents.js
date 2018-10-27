@@ -6,6 +6,8 @@ import * as routes from './route.js'
 import Home from '../Components/Home.jsx'
 import Login from '../Components/Login.jsx'
 import SignUp from '../Components/SignUp.jsx'
+import Listener from '../Components/Listener.jsx'
+import Deaf from '../Components/Deaf.jsx'
 
 const RoutesCom = [
     {
@@ -19,6 +21,16 @@ const RoutesCom = [
     {
         route: routes.HOME,
         components: <Home/>
-    }
+    },
+    {
+        route:routes.LISTENER,
+        components:<Listener/>
+    },
+    {
+        route:routes.DEAF,
+        components:<Deaf/>
+    } 
+    
+   
 ]
 export default RoutesCom
