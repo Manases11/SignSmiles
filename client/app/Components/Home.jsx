@@ -55,7 +55,7 @@ class Home extends React.Component {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost:8380/home">Inicio<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Noticias</a>
@@ -65,8 +65,8 @@ class Home extends React.Component {
           Lenguaje
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Sordo</a>
-          <a class="dropdown-item" href="#">Oyente</a>
+          <a class="dropdown-item" href="http://localhost:8380/deaf">Sordo</a>
+          <a class="dropdown-item" href="http://localhost:8380/listener">Oyente</a>
           <div class="dropdown-divider"></div>
          
         </div>
@@ -82,9 +82,18 @@ class Home extends React.Component {
           <div class="dropdown-divider"></div>
          
         </div>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Configuracion
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" >Soporte tecnico</a>
+          <a class="dropdown-item" >Datos</a>
+          <a class="dropdown-item" href="http://localhost:8380/login">Cerrar Sesion</a>
+          <div class="dropdown-divider"></div>
+         
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Configuracion</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -147,8 +156,8 @@ Vista para sordo: esta sera simplificada y facil de usar para usuarios que no pu
         <Grid container>
             <Grid item xs={4}/>
                 <Grid item xs={4}>
-                <a target="_blank" href="Sordo.html"/>                                                     <a target="_blank" href="Oyente.html"/>
-                <h1>  <img  src="https://i.imgur.com/HT5cXUH.png" title="source: imgur.com"/>Sordo</h1>                            <h1>< img  src="https://i.imgur.com/EPO5Ham.png" title="source: imgur.com" />  Oyente</h1>
+                <a target="_blank" href="http://localhost:8380/deaf"/>                                                                                                      <a target="_blank" href="http://localhost:8380/listener"/>
+                <h1>  <img  src="https://i.imgur.com/HT5cXUH.png" title="source: imgur.com"/><a href="http://localhost:8380/deaf"> Sordo</a></h1>                            <h1>< img  src="https://i.imgur.com/EPO5Ham.png" title="source: imgur.com" /><a href="http://localhost:8380/listener">  Oyente</a></h1>
                                                                                        
                                                                     
           
@@ -158,8 +167,8 @@ Vista para sordo: esta sera simplificada y facil de usar para usuarios que no pu
 
                 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Menu Oyente</a></li>
-    <li class="breadcrumb-item"><a href="#">Menu Sordo</a></li>
+    <li class="breadcrumb-item"><a href="http://localhost:8380/listener">Menu Oyente</a></li>
+    <li class="breadcrumb-item"><a href="http://localhost:8380/deaf">Menu Sordo</a></li>
     <li class="breadcrumb-item active" aria-current="page">Inicio</li>
   </ol>
 </nav>

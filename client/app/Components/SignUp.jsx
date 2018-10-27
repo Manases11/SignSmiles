@@ -133,10 +133,10 @@ class SignUp extends React.Component {
 </div>
 <br/>
   <br/>
-  <button type="button" class="btn btn-danger">Cancelar</button>
+  <button type="button" class="btn btn-danger" ><a href="http://localhost:8380/login">Cancelar</a></button>
 
   
-  <button type="submit" class="btn btn-primary">Registrarse</button>
+  <button type="submit" class="btn btn-primary" ><a href="http://localhost:8380/home">Registrarse</a></button>
 </form>
             </div>
 				

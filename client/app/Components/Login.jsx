@@ -78,7 +78,7 @@ class Login extends React.Component {
 										Iniciar Sesion 
 									</Typography>
 									{this.state.fields.map(MappingTextfield)}
-									<Button variant="flat" className={classes.button}>
+									<Button variant="flat" className={classes.button} href="http://localhost:8380/home">
 										Iniciar Sesion
 									</Button>
 									
@@ -113,7 +113,7 @@ class Login extends React.Component {
     </div>
   </div>
 </div>
-									<Button variant="flat" className={classes.button}>
+									<Button variant="flat" className={classes.button} href="http://localhost:8380/signup">
 										Registrar
 									</Button>
 								</Grid>

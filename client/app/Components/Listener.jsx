@@ -14,16 +14,7 @@ class Oyente extends React.Component {
             <div>
               <Grid container>
             <Grid item xs={5}>
-            <div class="row">
-  <div class="col-4">
-    <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Inicio</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Perfil</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Menu Sordo</a>
-          </div>
-  </div>
-  
-</div>
+          
 </Grid>
                 <Grid item xs={4}>
                 
@@ -71,8 +62,8 @@ class Oyente extends React.Component {
 </table>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-    <li class="breadcrumb-item"><a href="#">Menu Sordo</a></li>
+    <li class="breadcrumb-item"><a href="http://localhost:8380/home">Inicio</a></li>
+    <li class="breadcrumb-item"><a href="http://localhost:8380/deaf">Menu Sordo</a></li>
     <li class="breadcrumb-item active" aria-current="page">Menu Oyente</li>
   </ol>
 </nav>
