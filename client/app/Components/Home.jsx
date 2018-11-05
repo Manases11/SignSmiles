@@ -46,66 +46,68 @@ class Home extends React.Component {
         const { classes } =this.props;
         return(
             <div className= {classes.h1}>
-            <div><nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Sign Smiles</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+            <div><nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <a className="navbar-brand" href="#">Sign Smiles</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://localhost:8380/home">Inicio<span class="sr-only">(current)</span></a>
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item active">
+        <a className="nav-link" href="http://localhost:8380/home">Inicio<span className="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Noticias</a>
+      <li className="nav-item">
+        <a className="nav-link" href="#">Noticias</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Lenguaje
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="http://localhost:8380/deaf">Sordo</a>
-          <a class="dropdown-item" href="http://localhost:8380/listener">Oyente</a>
-          <div class="dropdown-divider"></div>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="http://localhost:8380/deaf">Sordo</a>
+          <a className="dropdown-item" href="http://localhost:8380/listener">Oyente</a>
+          <div className="dropdown-divider"></div>
          
         </div>
       </li>
       
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Cursos
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Cursos Sordo</a>
-          <a class="dropdown-item" href="#">Cursos Oyente</a>
-          <div class="dropdown-divider"></div>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" href="#">Cursos Sordo</a>
+          <a className="dropdown-item" href="#">Cursos Oyente</a>
+          <div className="dropdown-divider"></div>
          
         </div>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        
+      </li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Configuracion
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" >Soporte tecnico</a>
-          <a class="dropdown-item" >Datos</a>
-          <a class="dropdown-item" href="http://localhost:8380/login">Cerrar Sesion</a>
-          <div class="dropdown-divider"></div>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a className="dropdown-item" >Soporte tecnico</a>
+          <a className="dropdown-item" >Datos</a>
+          <a className="dropdown-item" href="http://localhost:8380/login">Cerrar Sesion</a>
+          <div className="dropdown-divider"></div>
          
         </div>
       </li>
-      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
 </div>
-<div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-secondary">Español</button>
-  <button type="button" class="btn btn-secondary">Ingles</button>
+<div className="btn-group" role="group" aria-label="Basic example">
+  <button type="button" className="btn btn-secondary">Español</button>
+  <button type="button" className="btn btn-secondary">Ingles</button>
   
 </div>
 <br/>
@@ -114,26 +116,26 @@ class Home extends React.Component {
           <Grid container>
             <Grid item xs={4}/>
                 <Grid item xs={4}>
-                <img class="card-img-top" src="https://i.imgur.com/9OeHzzV.jpg" alt="Card image cap" style={{width: '18rem'}}/>
+                <img className="card-img-top" src="https://i.imgur.com/9OeHzzV.jpg" alt="Card image cap" style={{width: '18rem'}}/>
                 <h1>Sign Smiles</h1>
                 <br/>
                 <br/>
                 <p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">¿Que somos?</a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">¿Cual es nuestra funcion?</button>
+  <a className="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">¿Que somos?</a>
+  <button className="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">¿Cual es nuestra funcion?</button>
   
 </p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
-      <div class="card card-body">
+<div className="row">
+  <div className="col">
+    <div className="collapse multi-collapse" id="multiCollapseExample1">
+      <div className="card card-body">
       SignSmiles es una aplicacion en desarrollo con el proposito de eliminar la barrera de comunicacion entre personas con discapacidad auditiva y las personas oyentes.
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
+  <div className="col">
+    <div className="collapse multi-collapse" id="multiCollapseExample2">
+      <div className="card card-body">
       SignSmiles funciona mediante dos opciones de vista:
 
 Vista para oyentes: el usuario buscara por medio de palabras las señas que busca.
@@ -166,10 +168,10 @@ Vista para sordo: esta sera simplificada y facil de usar para usuarios que no pu
                 </Grid>
 
                 <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="http://localhost:8380/listener">Menu Oyente</a></li>
-    <li class="breadcrumb-item"><a href="http://localhost:8380/deaf">Menu Sordo</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+  <ol className="breadcrumb">
+    <li className="breadcrumb-item"><a href="http://localhost:8380/listener">Menu Oyente</a></li>
+    <li className="breadcrumb-item"><a href="http://localhost:8380/deaf">Menu Sordo</a></li>
+    <li className="breadcrumb-item active" aria-current="page">Inicio</li>
   </ol>
 </nav>
             </div>
